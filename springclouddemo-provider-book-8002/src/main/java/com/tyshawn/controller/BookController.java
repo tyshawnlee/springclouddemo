@@ -27,7 +27,6 @@ public class BookController {
 
     @GetMapping("/book/getAllBook")
     public List<Book> getAllBook() {
-        System.out.println(1/0);
         return bookService.getAllBook();
     }
 

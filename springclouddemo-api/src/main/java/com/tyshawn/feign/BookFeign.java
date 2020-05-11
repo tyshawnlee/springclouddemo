@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient("SPRINGCLOUDDEMO-PROVIDER-BOOK")
+@FeignClient(value = "SPRINGCLOUDDEMO-PROVIDER-BOOK", fallbackFactory = BookFeignFallbackFactoty.class)
 public interface BookFeign {
 
     @GetMapping("/book/getAllBook")
