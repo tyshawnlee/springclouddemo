@@ -15,6 +15,7 @@
         <module>springclouddemo-provider-book-8002</module>
         <module>springclouddemo-consumer-hystrix-dashboard</module>
         <module>Springclouddemo-zuul-gateway-9527</module>
+        <module>springclouddemo-config-3344</module>
     </modules>
     <packaging>pom</packaging>
 

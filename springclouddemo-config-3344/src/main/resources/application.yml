@@ -1,0 +1,13 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: springclouddemo-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/tyshawnlee/springclouddemo-config.git
+          username: tyshawnlee@qq.com
+          password: Tyshawnisltx1101
+          search-paths: /
